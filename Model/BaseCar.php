@@ -4,7 +4,7 @@ declare(strict_types = 1);
 
 namespace Model;
 
-abstract class BaseCar extends MachineFactory
+abstract class BaseCar
 {
     public const TYPE_CAR = 'car';
     public const TYPE_TRUCK = 'truck';
